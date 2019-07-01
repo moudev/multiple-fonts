@@ -1,0 +1,35 @@
+{
+  "name": "multiple-fonts",
+  "version": "1.0.0",
+  "description": "Add multiple fonts to text of an element HTML",
+  "main": "build/multiple-fonts.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/babel-node ./src/multiple-fonts.js",
+    "test": "./node_modules/.bin/mocha --require @babel/register",
+    "build": "./node_modules/.bin/babel ./src/ -d ./build/",
+    "lint": "./node_modules/.bin/eslint ./src"
+  },
+  "keywords": [
+    "multiple",
+    "fonts"
+  ],
+  "author": "Mauricio Martínez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "chai": "^4.2.0",
+    "chai-dom": "^1.8.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "jsdom": "15.1.1",
+    "jsdom-global": "3.0.2",
+    "mocha": "^6.1.4",
+    "mocha-jsdom": "^2.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
