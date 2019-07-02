@@ -151,3 +151,8 @@ Result:
 ```html
 <script src="multiple-fonts.min.js" ></script>
 ```
+
+***
+
+- npm site: [**multiple-fonts - npm**](https://www.npmjs.com/package/multiple-fonts)
+  
