@@ -11,7 +11,10 @@
   },
   "keywords": [
     "multiple",
-    "fonts"
+    "fonts",
+    "title",
+    "change",
+    "font"
   ],
   "author": "Mauricio Martínez",
   "license": "ISC",
@@ -31,5 +34,17 @@
     "mocha": "^6.1.4",
     "mocha-jsdom": "^2.0.0",
     "nodemon": "^1.19.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moudev/multiple-fonts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moudev/multiple-fonts/issues"
+  },
+  "homepage": "https://github.com/moudev/multiple-fonts#readme"
 }
