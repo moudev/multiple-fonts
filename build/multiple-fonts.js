@@ -37,7 +37,7 @@ function multipleFonts(options) {
     main = document.createElement(mainElement);
   } else {
     main = mainElement;
-    text = main.textContent;
+    text = main.textContent.trim();
   }
 
   main.innerHTML = '';
