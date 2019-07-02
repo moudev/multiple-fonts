@@ -1,6 +1,6 @@
 {
   "name": "multiple-fonts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Add multiple fonts to text of an element HTML",
   "main": "build/multiple-fonts.js",
   "scripts": {
